@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B0C5A4 !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin: 5px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+.user-list
+{
+  font-size: 1.5rem;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container div {
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+.create-button {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* This will center the button horizontally */
+}
+
+
+.userdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list {
+  margin-bottom: 20px;
+}
+
+.userdata p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.userdata a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #28a745;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.userdata a:hover {
+  background-color: #218838;
+}
+
+
+@media screen and (max-width:488px) {
+  .delete, .view
+  {
+    margin: 5px 0px;
+  }
+}
